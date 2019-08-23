@@ -1,0 +1,11 @@
+problem number one:
+
+     bin（n).count("1")
+   
+preoblem number two:
+     最后一位与1做与运算，每执行一次向右移一位
+     count = 0
+     while n:
+         count += (n & 1)
+         n >>= 1
+     return count
